@@ -1,0 +1,25 @@
+{
+	"name": "Trigger_tkj",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "sql_to_sa_df",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2023-03-16T03:00:00Z",
+				"endTime": "2023-03-17T03:00:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
