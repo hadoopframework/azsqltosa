@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_tkj",
+				"name": "copy_to_stoarge_act",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
